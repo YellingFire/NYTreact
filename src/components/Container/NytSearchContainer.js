@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Result from "./Result";
-import Saved from "./Saved";
-import Search from "/Search";
-import API from "../utils/API"
+import Result from "../Results/Results.js";
+import Saved from "../Saved/Saved.js";
+import Search from "/Search/Search.js";
+import API from "../utils/API";
+
+export default NytSearchContainer;
